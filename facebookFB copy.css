@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+.bob2425 {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    background-color: #f0f2f5;
+    height: 590px;
+    width: 100%;
+    
+    
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif ;
+    font-size: 14px;
+}
+
+
+
+
+
+.Profile {
+    height: 220px;
+    width: 300px;
+    background-color: #f0f2f500;
+    margin: 1vh;
+   
+    
+    
+
+}
+
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    width: 280px;
+    
+    
+
+}
+
+.Fa {
+    display: flex;
+    justify-content: left;
+    padding: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    height: 30px;
+    width: 100%;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif ;
+    color: rgb(18, 18, 255);
+
+}
+
+.Recentlog {
+    display: flex;
+    justify-content: left;
+    padding-left: 2px;
+    font-size: 18px ;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.cli {
+    display: flex;
+    justify-content: left;
+    padding-left: 2px;
+    font-size: 10px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.profilepics   {
+    display: flex;
+    justify-content: left;
+    padding-left: 2px;
+    padding-top: 5px;
+    
+    
+    
+}
+
+.picx {
+    height: 125px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0.2px 0.2px 5px 2px rgba(0, 0, 0, 0.089);
+    border: none;
+
+}
+.picxs {
+    height: 125px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0.2px 0.2px 5px 2px rgba(0, 0, 0, 0.089);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.sd {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+.Profile1 {
+    width: 100px;
+    height: 100px;
+}
+
+.picture1 {
+    width: 100%;
+    height: 100%;
+}
+.Name {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+
+    
+}
+
+.frf {
+    text-decoration-line:none;
+
+}
+
+.add1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+.add2 {
+
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.add3  {
+    width: 30px;
+    
+   
+    
+}
+
+
+.addB {
+    height: 30px;
+    width: 30px;
+    border: 50px;
+    cursor: pointer;
+    border-radius: 100px;
+    
+}
+
+.Name1 {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    height: 20px;
+    align-items: center;
+    color: #0058e6;
+
+}
+
+
+.logina  {
+    height: 100%;
+    width: 250px;
+    padding-top: 9px;
+    border-radius: 8px;
+    box-shadow: -0.1px -0.2px 8px  rgba(0, 0, 0, 0.233);
+    background-color: #ffffff54;
+}
+
+
+.ina {
+    width: 92%;
+    height: 32px;
+    margin-bottom: 7px;
+    padding-left: 8px;
+    border-radius: 6px;
+    border: solid;
+    border-width: 1.2px;
+    border-color: rgb(211, 211, 211);
+    background-color: #ffffff7e;
+
+    
+}
+
+.ina:focus {
+    border: 1.2px solid rgb(255, 255, 255);
+    outline: 1.2px solid rgb(27, 87, 255);
+    
+    
+}
+
+
+.login3r {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tref {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logB {
+    width: 92%;
+    height: 30px;
+    background-color: #0058e6;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #f0f2f5;
+    transition: 0.5s;
+
+
+}
+
+.logB:hover {
+    background-color: rgb(4, 100, 255);
+    
+}
+
+.Forgot {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.forgotB {
+    border: none;
+    color: #0058e6;
+    font-size: 10px;
+    background-color:#ffffff00;
+}
+
+.Cre {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.a {
+    margin-right: 9px;
+}
+
+.as {
+    width: 128px;
+    height: 30px;
+    background-color: #48c92f;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #f0f2f5;
+    font-size: 12px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    width: 100%;
+
+
+
+}
+
+.coads {
+    height: 100%;
+    width: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.a3rf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #727272;
+    padding-top: 20px;
+}
+
+.asd {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.awerf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    padding-top: 60px;
+    background-color: #ffffff00;
+    width: 100%;
+}
+
+.Buttonsadfcc {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(95, 158, 160, 0);
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    border: none;
+
+}
+
+.jhfjsd {
+    position: absolute;
+    background-color: #f9fff8;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 0.1px 20px 5px black;
+    z-index: 2;
+    
+    
+
+
+
+
+}
+
+.dsfgdfwg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.aw3rwf {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.a3sdef {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.jfgbhgyds {
+    font-size: 20px;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #414141;
+    text-align: center;
+    margin-top: 5PX;
+
+}
+
+.dasdQ3RDGVEG {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.logBsd {
+    width: 92%;
+    height: 30px;
+    background-color: #0058e6;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #f0f2f5;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.logBsd:hover {
+    background-color: rgb(44, 110, 216);
+    
+}
+
+.logd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.drrg46jh {
+    height: 30px;
+    width: 232px;
+    border-radius: 7px;
+    border: solid;
+    border-color: #666565;
+    border-width: 1px;
+    padding-left: 8px;
+}
+
+.drrg46jh:focus {
+    border: solid 0.1px rgb(69, 202, 255);
+    outline: solid 0.1px rgb(86, 207, 255);
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Fa,.Recentlog,.cli,.profilepics {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+
